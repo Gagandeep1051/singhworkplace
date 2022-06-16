@@ -1,0 +1,45 @@
+#about1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#name{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px gray,
+               2px 2px 1px gray;
+}
+
+#P1{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6; 
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  margin-left: 80px;
+  
+}
+#P2{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6; 
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+#P3{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6; 
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+
+

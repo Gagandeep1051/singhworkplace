@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+/* ####################################     HOME PAGE      ####################################################### */
+#Hometitle{
+  /* transform: translate(-50%, -50%); */
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 400px;
+}
+
+/* .title{
+  
+  text-align: center;
+} */
+
+ .background-img{
+   margin-top: 95px;
+  width:100%;
+  height:650px;
+  object-fit: cover;
+  background-image: url(../photo/HomePage-background.jpg);
+}
+.title h1 {
+  transform: translate(-50%, -50%);
+  margin-top: 7%;
+  margin-left: 50%;
+  text-align:center; 
+  font-size:50px; 
+  text-transform:uppercase; 
+  color:#222; 
+  letter-spacing:1px;
+  font-family:"Playfair Display", serif; 
+  font-weight:400;
+}
+.title h1 span {
+  margin-top: 5px;
+    font-size:15px; 
+    color:#444; 
+    word-spacing:1px; 
+    font-weight:normal;
+    letter-spacing:2px;
+    text-transform: uppercase; 
+    font-family:"Raleway", sans-serif; 
+    /* font-weight:500; */
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+.title h1 span:after,.title h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 5px;
+background-color:#f8f8f8;
+}
+
+
+
+
+
+
+/* ####################################     logo css     ####################################################### */
+
+img { 
+	height: 100;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 20px;
+  
+}
+
+
+/* ####################################     swiper css    ####################################################### */
+/* .mySwiper{
+  margin-top: 50px;
+}
+
+.Swiper {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    
+}
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+  } */
+  
+  /* .swiper img {
+    display: block;
+    width: 100%;
+  } */
+
+
+.container-Certifications{
+  text-align: center;
+  margin-top: 60%;
+  
+}
+.all-cert{
+  text-align: center;
+}
+
+.Link-cert{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Link-cert-icon{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Link-cert-list{
+  margin-top: 10px;
+  line-height: 20px;
+
+}
+
+.codepath-title{
+  margin-top: 40px;
+}
+.para {
+  max-width: 300px;
+}
+
+.container-eduction{
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+.UniversityIcon{
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ####################################     Footer   ####################################################### */
+
+.footerbotton{
+  color: black;
+  width: auto;
+  height: 4.5rem; 
+  font-family: 'Water Brush', cursive;  
+  margin-top: 200px;
+  border-top: 4px solid black;
+  background: white;
+  text-align: center;
+}
+
+
+/* ####################################     HOME PAGE      ####################################################### */
+
+
+
+
+
+
+/* My image css */
+
+  /* .container {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  } */
+
+
+
+/* ####################################     About me Card   ####################################################### */
+
+
+  .card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 200px;
+  }
+  .card0 {
+    background: url(/src/photo/Full_pfp.png) center center no-repeat;
+    background-size: 300px;
+  }
+  .card0:hover {
+    background: url(/src/photo/MY_PFP.png) left center no-repeat;
+    background-size: 600px;
+  }
+  .card0:hover h2 {
+    opacity: 1;
+  }
+  .card0:hover .fa {
+    opacity: 1;
+  }
+  h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  

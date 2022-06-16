@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#header ul{
+    display: flex;
+}
+
+
+#header ul li {
+    list-style: none;
+    padding: 15px 15px;
+
+}
+
+#header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    color: #000000;
+    font-weight: 400;
+
+}
+
+#header ul li a:hover {
+    border-bottom: 3px solid #ef5a00;
+
+}
+
+#header ul li img {
+    margin-right: 30px;
+
+}
+
+.toggle{
+    display: none;
+
+}
+
+@media (max-width: 749px){
+    #header ul {
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: calc(100vh- 80px);
+        padding: 50px 100px;
+        text-align: center;
+        overflow: auto;
+        background-color:#111;
+        flex-direction: column;
+        opacity: 0; 
+
+    }
+    
+
+.logo {
+    color: #fff;
+}
+#header{
+    background-color:#111;
+
+}
+
+#header.activel ul{
+    opacity: 1;
+    top: 75px;
+}
+
+#header ul li a {
+    margin: 5px 0;
+    font-size: 24px;
+    color: black;
+
+}
+
+.toggle {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image:
+    url(https://img.icons8.com/material-outlined/48/ffffff/menu--v1.png);
+    cursor: pointer;
+}
+
+#header.active1 .toggle {
+background-image:
+url(https://img.icons8.com/material-rounded/48/ffffff/multiply--v1.png);
+background-repeat:no-repeat;
+}
+}
