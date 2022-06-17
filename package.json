@@ -1,9 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon --exec npx babel-node src/server.js"
@@ -21,5 +19,14 @@
     "@babel/node": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gagandeep1051/singhworkplace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gagandeep1051/singhworkplace/issues"
+  },
+  "homepage": "https://github.com/Gagandeep1051/singhworkplace#readme",
+  "description": ""
 }

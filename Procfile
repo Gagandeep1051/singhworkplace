@@ -1,3 +1,3 @@
 web: node src/server.js 
-web:npm start && npm start
+web: npm start && npm start
 
