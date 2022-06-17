@@ -90,5 +90,5 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/build/index.html'));
 })
 
-var port = process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 app.listen(port, "0.0.0.0", () => console.log("listening on 8000"));
