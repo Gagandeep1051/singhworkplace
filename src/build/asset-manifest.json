@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29c63ae5.css",
+    "main.js": "/static/js/main.e662e880.js",
+    "static/media/Full_pfp.png": "/static/media/Full_pfp.02632983de6cc8478d00.png",
+    "static/media/MY_PFP.png": "/static/media/MY_PFP.abe8e97b0d3a2bc014a3.png",
+    "static/media/Website.png": "/static/media/Website.5f735c3fa6d1471e82b0.png",
+    "static/media/pic1.png": "/static/media/pic1.bedb53318d74d8c93803.png",
+    "static/media/twitter.png": "/static/media/twitter.121d861125398fe847e4.png",
+    "static/media/flixter.png": "/static/media/flixter.402aee7cbb6fa1df6615.png",
+    "static/media/Logo.png": "/static/media/Logo.94802d7965d228e23fd8.png",
+    "static/media/Parkout.png": "/static/media/Parkout.fda44ad131b2fad02293.png",
+    "static/media/HomePage-background.jpg": "/static/media/HomePage-background.e3bfed315de0d264e44b.jpg",
+    "static/media/insta.png": "/static/media/insta.30d3938f87d2e717538a.png",
+    "static/media/pic2.png": "/static/media/pic2.e554ffd263f99fd8e5c1.png",
+    "static/media/simpletodo.png": "/static/media/simpletodo.5c760ed019d00de170e2.png",
+    "index.html": "/index.html",
+    "main.29c63ae5.css.map": "/static/css/main.29c63ae5.css.map",
+    "main.e662e880.js.map": "/static/js/main.e662e880.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29c63ae5.css",
+    "static/js/main.e662e880.js"
+  ]
+}
