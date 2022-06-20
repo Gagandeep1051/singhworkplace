@@ -28,11 +28,6 @@
   "bugs": {
     "url": "https://github.com/Gagandeep1051/singhworkplace/issues"
   },
-
-  "engines": {
-    "node": ">=14.0.O", 
-    "npm": ">=7.7.0"
-  },
   "homepage": "https://github.com/Gagandeep1051/singhworkplace#readme",
   "description": ""
 
