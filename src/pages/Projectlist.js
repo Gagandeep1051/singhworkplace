@@ -25,7 +25,7 @@ const Projectlist = () =>{
                 <p className="Description-1">
                     <li>Designed a full, Client-side and server-side, website to showcase my projects,
                          show my frontend skills in css and animation.</li>
-                    <li>Implemented Local mongoDb for user to like and comment on the Riddles
+                    <li>Implemented Local mongoDb for users to like and comment on the Riddles
                         and articles.</li>
                     <li>Created an react interface by designing user-friendly forms</li>
                     <li>Full-stack development</li>
