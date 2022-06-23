@@ -13,7 +13,8 @@ const mongoose = require('mongoose');
 app.use(bodyParser.json());
 app.use(express.urlencoded({extended:true}));
 
-app.use(express.static(path.join(__dirname, '/build')));
+app.use(express.static(path.join(__dirname, '/build/index.html')));
+
 
 
 
