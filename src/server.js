@@ -26,12 +26,14 @@ const withdb =async (operations, res) => {
                 { useNewUrlParser: true, 
                 useUnifiedTopology: true, });
         const db = client.db("my-blog");
+    
 
         await operations(db);
         await client.close();
 
     } catch (error) {
         res.status(500).json({message:'error connecting to db', error});
+
     }
 
 }
@@ -100,6 +102,5 @@ if(process.env.NODE_ENV === "production"){
         res.sendFile(path.join(__dirname + '/build/index.html'));
     })
 }
-
 
 app.listen(port, "0.0.0.0", () => console.log("listening on 8000"));
